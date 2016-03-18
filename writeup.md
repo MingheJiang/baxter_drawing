@@ -6,8 +6,12 @@
 
 ### Capabilities:
 
+
 * #### First:&nbsp;&nbsp;&nbsp;&nbsp;Taking photo of a picture drawed by someone
+
 * #### Then:&nbsp;&nbsp;&nbsp;&nbsp;Drawing the content of that picture 
+
+
 
 ### Files In Package:
 * #### In Package (drawing_left):
