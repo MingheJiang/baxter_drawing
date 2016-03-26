@@ -7,7 +7,7 @@
 ### Introduction:
 
 
-This purpose of this project was to create a demonstration that combined robot arm kinematics and control with basic image processing. In the demo, a user draws a picture on a whiteboard and we use the right hand camera of a Baxter Research Robot to take an image of the user's picture. Canny edge detection is used to build a set of SE(3) waypoints that represent the user's picture. Finally, we solve the inverse kinematics for each waypoint, and design a joint space trajectory for Baxter's left arm to follow. Baxter then draws a replica of the user's original picture
+The purpose of this project was to create a demonstration that combined robot arm kinematics and control with basic image processing. In the demo, a user draws a picture on a whiteboard and we use the right hand camera of a Baxter Research Robot to take an image of the user's picture. Canny edge detection is used to build a set of SE(3) waypoints that represent the user's picture. Finally, we solve the inverse kinematics for each waypoint, and design a joint space trajectory for Baxter's left arm to follow. Baxter then draws a replica of the user's original picture.
 
 
 
@@ -50,6 +50,6 @@ The difficult part would be get a better image processing result and let joint t
 ### Future Work:
 The finding content of paper part is not very ideal, in order to improve it, the camera could be set to be able to recoginze the red color(assume we let people to draw with red pen) and then find it. 
 
-The image processing part is not works well every time, so the values of some functions like canny and houghLinesP should be modified to be worked with more shapes. 
+The image processing part is not works well every time, so the values of some functions like Canny and HoughLinesP should be modified to be worked with more shapes. 
 
 The drawing result cannot be oriented now, so later the orientation of the image could be added.
