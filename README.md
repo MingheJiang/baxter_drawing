@@ -38,10 +38,6 @@ The right camera firstly gets the canny image of its vision by `cv2.Canny()` and
 
 After finding the content and taking the canny image of it, the image is dilated and eroded in order to get the better result for houghing lines. By implementing `cv2.HoughLinesP()`, the sets of x,y pixels of these lines is obtained. 
 
-The function `pixel_to_baxter_left()` converts these x,y pixels into Baxter's left hand workspace.
-
-Since the x,y locations we obtained from last step is out-of-order, they were reordered in a consequence that the next point is always nearest the former one.
-
 Then the new x,y locations are splined by the function  `interpolate.splev()` to get much smoother lines. 
 
 ### Challenge:
