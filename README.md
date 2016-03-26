@@ -7,7 +7,7 @@
 ### Introduction:
 
 
-* #### This purpose of this project was to create a demonstration that combined robot arm kinematics and control with basic image processing. In the demo, a user draws a picture on a whiteboard and we use the right hand camera of a Baxter Research Robot to take an image of the user's picture. Canny edge detection is used to build a set of SE(3) waypoints that represent the user's picture. Finally, we solve the inverse kinematics for each waypoint, and design a joint space trajectory for Baxter's left arm to follow. Baxter then draws a replica of the user's original picture
+This purpose of this project was to create a demonstration that combined robot arm kinematics and control with basic image processing. In the demo, a user draws a picture on a whiteboard and we use the right hand camera of a Baxter Research Robot to take an image of the user's picture. Canny edge detection is used to build a set of SE(3) waypoints that represent the user's picture. Finally, we solve the inverse kinematics for each waypoint, and design a joint space trajectory for Baxter's left arm to follow. Baxter then draws a replica of the user's original picture
 
 
 
